@@ -41,19 +41,19 @@ This project is designed to showcase the power of front-end technologies by crea
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/project-name.git
-```
+   ```
 
 2. Navigate to the project directory:
-```bash
-cd Portfolio
-```
+  ```bash
+  cd Portfolio
+  ```
 
 3. Open the index.html file in your preferred browser.
 
-Usage
+## Usage
 To run the project, simply open the index.html file in any web browser. The project is self-contained and does not require any additional setup or dependencies.
 
-##Project Pages
+## Project Pages
 Explore the different pages within the project:
 
 - Home Page: The main landing page that introduces the project and its features.
