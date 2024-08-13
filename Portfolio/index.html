@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67cda5e993.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" class="container">
+        <nav>
+            <a href="#" class="logo">PB Creation.</a>
+            <ul>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#header">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#publications-patents">Publications & Patents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="portfolio" class="bgimage" id="home">
+        <div class="container-fluid"> 
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, I'm <span class="color">Priyansu Bhandari</span></h2>
+                    <p class="hero_desc">I am a <span id="typewriter"></span></p>
+                    <p class="hero_desc1">Code with Purpose, Design with Passion.</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+
+    <br>
+    <br>
+
+    <div id="id">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/priyanshu.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>This is <b>Priyansu Bhandari</b>. Adaptable student with knowledge of software development, configuration management, and database design. Aiming to leverage my abilities to successfully fill the vacancy on your team. Hard worker experienced in problem-solving, service and time management. Aiming to leverage my abilities to successfully fill the Software Developer role at your company.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span> <br> Java(Core Java) Python(Basic) and C(Basic)</li>
+                            <li><span>Technologies:</span> <br> AI/ML/DL, Computer Vision, Natural language Processing, Spring Boot(Basic)</li>
+                            <li><span>Tools:</span> <br> Git and GitHub, SQL, Apache Hadoop, VsCode</li>
+                            <li><span>Libraries:</span> <br> Pandas, Seaborn, Numpy, Sci-kit Learn, Tensorflow/ Keras, Pytorch, OpenCv, Dialogflow, FaceRecognition, Beautifulsoup</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>05-2023 to 07-2023</span> 
+                                <br> Software Development Intern, <b>COGNIFRONT</b>
+                                <br> Participated in: 2.5-month internship focused on computer vision techniques.
+                                <br>Project: Developed a system for text extraction from images using advanced image processing and deep learning. Debugged existing code to identify and resolve technical issues quickly.
+                            </li>
+                            <li><span>03-2022 to 05-2022</span> 
+                                <br> AI Research Intern, <b>VERZEO</b>
+                                <br>Duration: 2-month internship specializing in machine learning with Python.
+                                <br>Learning: Gained extensive knowledge in machine learning algorithms and techniques.
+                                <br>Projects completed: Successfully executed 2 projects focused on practical applications of machine learning.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span> <br> Bachelor of Technology, <b>College of Engineering Roorkee</b>
+                            <br>Courses: Computer Science and Engineering
+                            </li>
+                            <li><span>2020-2021</span> <br> Senior Secondary, <b>Army Public School, Mathura Cantt</b>
+                                <br>Courses: Science Stream
+                                <br> GPA : 9.5
+                            </li>
+                            <li><span>2018-2019</span> <br> Matriculation, <b>Army Public School, Mathura Cantt</b>
+                                <br>Courses: Science Stream
+                                <br> GPA : 9.1
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="project-card">
+                    <a href="Project1/index.html" style="text-decoration: none; color: inherit;">
+                        <h2>Precision Weed Management System</h2>
+                        <p><strong>Description:</strong> Developed an innovative weed detection and control system to optimize crop health, minimize herbicide usage, and maximize yields in agriculture. Utilized computer vision and automation technologies to provide a precise and intelligent solution for weed management challenges.</p>
+                        <br><p><strong>Technology Used:</strong> Integrated advanced computer vision algorithms, including YOLOv5s, for real-time weed detection. Developed algorithms for calculating optimal herbicide quantities and designed automated mechanisms for precise herbicide application.</p>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="Project2/index.html" style="text-decoration: none; color: inherit;">
+                        <h2>EasyOCR Text Extraction</h2>
+                        <p><strong>Description:</strong> An application leveraging the EasyOCR library to extract text from images in English and Hindi languages. Provides a simple and efficient solution for developers requiring OCR capabilities in their applications to extract textual information from images.</p>
+                        <br><p><strong>Technology Used:</strong> Utilizes the EasyOCR library with advanced deep learning techniques for high accuracy text extraction. Supports both English and Hindi languages.</p>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="Project3/index.html" style="text-decoration: none; color: inherit;">
+                        <h2>Data Crawling</h2>
+                        <p><strong>Description:</strong> A Python application focused on web scraping and data extraction using libraries such as Pandas, Requests, BeautifulSoup, NumPy, and OS. Provides a flexible and efficient solution for retrieving and analyzing data from websites.</p>
+                        <br><p><strong>Technology Used:</strong> Utilizes BeautifulSoup for web scraping, Requests for data retrieval, Pandas and NumPy for data manipulation and analysis, and OS for file handling operations.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <br>
+
+
+<div id="certificates" class="info-section">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="info-cards">
+            <div class="info-card">
+                <i class="fa-solid fa-trophy"></i>
+                <h2>UTU Fest Projection Exhibition</h2>
+                <p>Achieved first position in the UTU Fest Projection Exhibition.</p>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Internship Completion</h2>
+                <p>Internship completion certificates from reputable organizations.</p>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-award"></i>
+                <h2>Deloitte Certification</h2>
+                <p>Deloitte certification attained for the Virtual Experience Program.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div id="publications-patents" class="info-section">
+    <div class="container">
+        <h1 class="sub-title">Publications & Patents</h1>
+        <div class="info-cards">
+            <div class="info-card">
+                <i class="fa-solid fa-file"></i>
+                <h2>Patent Application</h2>
+                <p><strong>Precision Weed Detection Model:</strong> Filed a patent application for a precision agriculture model. The patent encompasses innovations in both hardware and software levels.</p>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-paperclip"></i>
+                <h2>Research Paper Submission</h2>
+                <p><strong>Various Deep-Learning Model on Arrhythmia Identification:</strong> Submitted a research paper for publication at IEEE. The paper explores the application of various deep learning algorithms to identify relationships and achieve high accuracy in arrhythmia detection.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<section id="coding-platforms">
+    <h2>Coding Platforms</h2>
+    <div class="platform-boxes">
+        <div class="platform-box">
+            <a href="https://www.hackerrank.com/dashboard" target="_blank" class="platform-link">HackerRank</a>
+        </div>
+        <div class="platform-box">
+            <a href="https://leetcode.com/u/priyansu-_26/" target="_blank" class="platform-link">LeetCode</a>
+        </div>
+        <div class="platform-box">
+            <a href="https://www.geeksforgeeks.org/user/priyanshubhandaripb2002/" target="_blank" class="platform-link">GeekForGeeks</a>
+        </div>
+    </div>
+</section>
+
+
+<br>
+
+    
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ipb26@icloud.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>9548473697</p>
+                <div class="social-icons">
+                    <a href="mailto:ipb26@icloud.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.instagram.com/priyanshu.bhandari_/?igsh=eDZ4dnRxcnRnYTI5" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Priyansu-Bhandari" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/priyansu-bhandari-3422b3222/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="/submit-form" method="post">
+                    <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" id="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <footer class="end">
+        <p><i class="fa-sharp fa-solid fa-thumbs-up fa-beat"></i>Thank you for taking the time to visit this site. Your presence is greatly appreciated.</p>
+    </footer>
+
+    <script src="script.js"></script>   
+</body>
+</html>
